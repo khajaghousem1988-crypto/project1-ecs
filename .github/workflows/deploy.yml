@@ -14,7 +14,8 @@ permissions:
 env:
   AWS_REGION: eu-north-1
   ECR_REPOSITORY: banking-devops-dev-app
-  ECS_CLUSTER: devops1988-dev-cluster
+  # ECS_CLUSTER: devops1988-dev-cluster
+  ECS_CLUSTER: banking-devops-dev-cluster
   ECS_SERVICE: banking-devops-dev-service
   # ECS_SERVICE: devops1988-dev-service
   # ECS_TASK_DEFINITION_FAMILY: banking-devops-dev
